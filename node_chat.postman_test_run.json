@@ -1,0 +1,239 @@
+{
+	"id": "e94ddc61-21c4-4167-8d4a-7b7dd4a84fa2",
+	"name": "node_chat",
+	"timestamp": "2020-12-30T23:15:40.778Z",
+	"collection_id": "b9192581-5261-4b47-8621-a7d70ac933c7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2f4b523c-459b-4ec3-8e29-018471beef9d",
+			"name": "http://localhost:3001/api/messages",
+			"url": "http://localhost:3001/api/messages",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API can create messages.": true
+			},
+			"testPassFailCounts": {
+				"API can create messages.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				81
+			],
+			"allTests": [
+				{
+					"API can create messages.": true
+				}
+			]
+		},
+		{
+			"id": "640f0e8a-a8d0-4246-960b-8a1f4fee00e7",
+			"name": "http://localhost:3001/api/messages",
+			"url": "http://localhost:3001/api/messages",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5e6decd2-2c6c-414a-b3db-0996d855d041",
+			"name": "http://localhost:3001/api/messages",
+			"url": "http://localhost:3001/api/messages",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API can create messages.": true
+			},
+			"testPassFailCounts": {
+				"API can create messages.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"API can create messages.": true
+				}
+			]
+		},
+		{
+			"id": "b1a01768-feef-4851-8290-ea758b7a11bc",
+			"name": "http://localhost:3001/api/messages",
+			"url": "http://localhost:3001/api/messages",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API can fetch messages.": true
+			},
+			"testPassFailCounts": {
+				"API can fetch messages.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"API can fetch messages.": true
+				}
+			]
+		},
+		{
+			"id": "e5c8c374-3532-4fec-91b2-aa2f7071c0d5",
+			"name": "http://localhost:3001/api/messages",
+			"url": "http://localhost:3001/api/messages/0",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API can update messages": true
+			},
+			"testPassFailCounts": {
+				"API can update messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"API can update messages": true
+				}
+			]
+		},
+		{
+			"id": "508d3dee-3cea-4526-9b83-4ed6cf93d655",
+			"name": "http://localhost:3001/api/messages",
+			"url": "http://localhost:3001/api/messages/0",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a188c04f-756a-4b0b-8ba3-a93ae85d1dae",
+			"name": "http://localhost:3001/api/messages",
+			"url": "http://localhost:3001/api/messages/1",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cc887aff-126a-4961-a96d-ccc589e5803c",
+			"name": "http://localhost:3001/api/messages",
+			"url": "http://localhost:3001/api/messages/2",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API can delete messages": true
+			},
+			"testPassFailCounts": {
+				"API can delete messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"API can delete messages": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 146,
+	"collection": {
+		"requests": [
+			{
+				"id": "2f4b523c-459b-4ec3-8e29-018471beef9d",
+				"method": "POST"
+			},
+			{
+				"id": "640f0e8a-a8d0-4246-960b-8a1f4fee00e7",
+				"method": "POST"
+			},
+			{
+				"id": "5e6decd2-2c6c-414a-b3db-0996d855d041",
+				"method": "POST"
+			},
+			{
+				"id": "b1a01768-feef-4851-8290-ea758b7a11bc",
+				"method": "GET"
+			},
+			{
+				"id": "e5c8c374-3532-4fec-91b2-aa2f7071c0d5",
+				"method": "PUT"
+			},
+			{
+				"id": "508d3dee-3cea-4526-9b83-4ed6cf93d655",
+				"method": "DELETE"
+			},
+			{
+				"id": "a188c04f-756a-4b0b-8ba3-a93ae85d1dae",
+				"method": "DELETE"
+			},
+			{
+				"id": "cc887aff-126a-4961-a96d-ccc589e5803c",
+				"method": "DELETE"
+			}
+		]
+	}
+}
